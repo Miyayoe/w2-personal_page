@@ -1,0 +1,169 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-style: italic; }
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 308px 0;
+  color: white;
+  font-weight: bold; }
+  .banner-content {
+    max-width: 304px;
+    margin: 0 auto;
+    margin-bottom: 40px; }
+    .banner-content p {
+      font-size: 24px;
+      line-height: 42px; }
+    .banner-content h1 {
+      margin-bottom: 32px;
+      font-size: 80px;
+      font-weight: 1000;
+      line-height: 106px; }
+    .banner-content h2 {
+      font-size: 24px;
+      line-height: 32px;
+      white-space: nowrap; }
+  .banner-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px; }
+
+.about {
+  padding: 56px 0;
+  text-align: center; }
+  .about h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 40px; }
+  .about-image {
+    margin-bottom: 20px; }
+  .about-info {
+    font-weight: bold; }
+    .about-info li {
+      font-size: 24px;
+      line-height: 42px; }
+      .about-info li .job {
+        line-height: 36px; }
+    .about-info::after {
+      content: '';
+      display: block;
+      width: 384px;
+      border-top: 1px solid #000;
+      margin: 0 auto;
+      margin-top: 23px;
+      margin-bottom: 28px; }
+  .about-experience {
+    font-weight: bold; }
+    .about-experience li {
+      font-size: 24px;
+      line-height: 42px;
+      margin-bottom: 28px; }
+      .about-experience li::before {
+        display: inline-block;
+        content: '';
+        margin-right: 16px;
+        background-color: #891818;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%; }
+
+.brand {
+  background-color: #000;
+  color: white;
+  padding-top: 56px;
+  padding-bottom: 106px;
+  text-align: center; }
+  .brand h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 12px; }
+  .brand h3 {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px; }
+  .brand p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 68px; }
+  .brand-images {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px 24px; }
+
+.works {
+  padding-top: 56px;
+  padding-bottom: 144px;
+  text-align: center; }
+  .works h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 16px; }
+  .works > p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 56px; }
+  .works-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 48px 24px; }
+    .works-list-item img {
+      margin-bottom: 16px; }
+
+.contact {
+  padding: 64px 0;
+  text-align: center;
+  background-color: #000;
+  color: white; }
+  .contact h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 16px; }
+  .contact-link:not(:last-child) {
+    margin-bottom: 16px; }
+  .contact-link a {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear; }
+    .contact-link a:hover {
+      color: #000;
+      background-color: white; }
+
+.container {
+  max-width: 1200px; }
+
+img {
+  vertical-align: middle; }
+
+/*# sourceMappingURL=all.css.map */
